@@ -6,6 +6,16 @@
         border-radius: 50%;
         background: #0c1777;
         margin-top: 10px;
+        color: #fff;
+    }
+    &__wraper {
+        margin: 50px;
+    }
+    &__triangle{
+        margin-top: 10px;
+        width: 400px;
+        height: 200px;
+        background: #e90505;
     }
 }
 .container {
