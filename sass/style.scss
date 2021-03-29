@@ -1,25 +1,25 @@
-.first{
-    background: #ade4b0;
-    &__circle {
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        background: #0c1777;
-        margin-top: 10px;
-        color: #fff;
-    }
-    &__wraper {
-        margin: 50px;
-    }
-    &__triangle{
-        margin-top: 10px;
-        width: 400px;
-        height: 200px;
-        background: #e90505;
-    }
-}
 .container {
-    // height: 500px;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
+}
+
+.header {
+    &__menu {
+        height: 70px;
+        background: #d5f75c;
+    }
+    &__title {
+        font-family: 'Ruslan Display', cursive;
+        font-size: 3em;
+        text-align: center;
+    }
+   
+}
+.english {
+    border: 2px solid #000;
+    border-radius: 5px;
+    &__text {
+        margin-top: 1%;
+        
+    }
 }
