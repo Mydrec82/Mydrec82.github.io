@@ -1,5 +1,6 @@
+
 .container {
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -19,7 +20,8 @@
     border: 2px solid #000;
     border-radius: 5px;
     &__text {
+        display: block;
         margin-top: 1%;
-        
+
     }
 }
