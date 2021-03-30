@@ -6,23 +6,26 @@
 
 .header {
     &__menu {
-        height: 70px;
+        height: 60px;
         background: #d5f75c;
     }
-    &__title {
-        margin-top: 5px;
-        font-family: 'Ruslan Display', cursive;
-        font-size: 3em;
-        text-align: center;
-        line-height: 5vh;
-    }
-   
+    
 }
+
 .english {
     &__section{
         border: 1px solid #000;
         border-radius: 5px;
         padding: 10px;
+        background: rgb(241, 241, 241);
+    }
+
+    &__title {
+        margin-top: 10px;
+        font-family: 'Ruslan Display', cursive;
+        font-size: 2.4em;
+        text-align: center;
+        line-height: 8vh;
     }
     
     &__text {
@@ -31,4 +34,8 @@
         font-size: 1em;
 
     }
+}
+
+.russian {
+    margin-top: 20px;
 }
