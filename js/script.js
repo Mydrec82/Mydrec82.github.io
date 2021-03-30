@@ -12,4 +12,6 @@ if (document.documentElement.clientWidth < 400) {
     widthContainers.forEach(item => {
         item.style.width = '95%';
     });
+
+    console.log(widthContainers.length);
 }
