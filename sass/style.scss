@@ -10,9 +10,11 @@
         background: #d5f75c;
     }
     &__title {
+        margin-top: 5px;
         font-family: 'Ruslan Display', cursive;
         font-size: 3em;
         text-align: center;
+        line-height: 5vh;
     }
    
 }
@@ -25,8 +27,8 @@
     
     &__text {
         display: block;
-        margin-top: 1%;
-        font-size: 1.2em;
+        margin-top: 1vh;
+        font-size: 1em;
 
     }
 }
