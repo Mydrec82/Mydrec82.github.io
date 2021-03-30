@@ -17,11 +17,16 @@
    
 }
 .english {
-    border: 2px solid #000;
-    border-radius: 5px;
+    &__section{
+        border: 1px solid #000;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    
     &__text {
         display: block;
         margin-top: 1%;
+        font-size: 1.2em;
 
     }
 }
