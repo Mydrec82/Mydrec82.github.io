@@ -38,4 +38,7 @@
 
 .russian {
     margin-top: 20px;
+    &__textarea {
+        width: 100%;
+    }
 }
