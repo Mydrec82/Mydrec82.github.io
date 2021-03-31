@@ -46,11 +46,20 @@
         resize: none;
     }
     button {
-    width: 30vw;
-    height: 5vw;
-    border-radius: 1vw;
-    cursor: pointer;
-    font-size: 2vw;
-    line-height: 2vw;
+        display: block;
+        margin: 10px auto 20px;
+        width: 30vw;
+        height: 5vw;
+        border-radius: 1vw;
+        cursor: pointer;
+        font-size: 2vw;
+        line-height: 2vw;
+        transition: 0.2s all;
+        &:active {
+            background: #42e90f;
+        }
+        &:focus {
+            outline: none;
+        }
     }
 }
